@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 68</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+<body>
+<nav class="navbar-inverse" style="position: sticky;top: 0;z-index: 99999;">
+<div class="navbar-header">
+	<button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#myNavbar">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand" href="#">The Heritage School</a>
+</div>
+
+<div  class="collapse navbar-collapse" id="myNavbar">
+	<ul class="nav navbar-nav">
+		<li><a href="#campus-life">Campus Life</a> </li>
+		<li><a href="#achievements">Achievements</a> </li>
+		<li><a href="#new">What's New</a> </li>
+		<li><a href="#alumni">Alumni</a> </li>
+		<li><a href="#contactUs">Contact Us</a> </li>
+	</ul>
+</div>
+</nav>
+
+<div class="announcement">
+	<marquee id="marqueeStyle" onmouseover="this.stop()" onmouseout="this.start()">
+	   *** Feel free to ask any questions on school@gmail.com ***
+	</marquee>
+</div>
+<center>
+	<iframe src="https://www.youtube.com/embed/Mez62VexXUQ" id="video"></iframe>
+</center>
+
+<div class="containers">
+	<div class="page-headers col-lg-12  col-md-12  col-sm-12  col-xs-12" id="campus-life">
+		<h2 class="text-capitalize">Campus Life</h2>
+	</div>
+
+   <div id="images">
+	   <img src="auditorium.jpeg">
+	   <h4>Auditorium</h4>
+	   <img src="dinning hall.png">
+	   <h4> Dinning Hall</h4>
+   </div>
+</div>
+
+<div class="containers">
+	<div class="page-headers col-lg-12  col-md-12  col-sm-12  col-xs-12" id="achievements">
+		<h1 class="text-capitalize">Achievements</h1>
+	</div>
+
+   <div id="typing">
+	   <h2>The Heritage School won the HP Global Innovation Award, EducationWorld Award for being No. 1 Co-Ed Day School from 2013-2020 in West Bengal, Global Innovation Award from BITS Pilani Dubai Campus in 2019, The Telegraph School of the Year Award in 2012 & 2016 and many more.</h2>
+   </div>
+</div>
+
+<div class="container">
+	<div class="page-header col-lg-12  col-md-12  col-sm-12  col-xs-12 " id="contactUs">
+		<h2 class="text-capitalize">Contact Us</h2>
+	</div>  
+
+	<div id="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14742.695006037382!2d88.4184676!3d22.5164206!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac556ea09ce96171!2sThe%20Heritage%20Academy!5e0!3m2!1sen!2sin!4v1648982661524!5m2!1sen!2sin" frameborder="0" height="450" allowfullscreen=""></iframe>
+	</div>
+	<div id="details">
+		<img src="pricipal.jpg">
+		<h3>Principal Name</h3>
+		<h4>Seema Sapru Ma'am</h4>
+		<div class="contact_1">
+			<h5>school@gmail.com</h5>
+			<h5>9987564857</h5>
+		</div>
+	</div>
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
